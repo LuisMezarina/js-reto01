@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    background-color: #cccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Conversor {
+    border: solid 1px black;
+    max-width: 1000px;
+    min-width: 700px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#ingresar {
+    border: solid 1px green;
+    padding:  10px;
+    display: flex;
+    justify-content: center;
+}
+
+#editar1 {
+    border: solid 1px red;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
