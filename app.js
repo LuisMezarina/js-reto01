@@ -16,7 +16,8 @@ let boton = document.getElementById("calcular")
 
 function proceso() {
     const distancia = metrosConvertir.value
+    const distanciaNumero = parseFloat(ingresado.value)
+    let resultadoDistancia = distanciaNumero * 0.01
 }
-
 
 let resultado = boton.addEventListener("click", proceso)
